@@ -156,11 +156,70 @@ header nav a {
   text-decoration: none;
   color: #4B0082;
 }
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 10%;
+  line-height: 1.5;
+}
 .intro {
   border: 2px solid black;
-  margin-left: 50%;
-}
-.intro div {
-  border: 2px solid black;
+  width: 100%;
   padding: 2rem;
+  height: 35rem;
+}
+.intro h1,
+.intro h3,
+.intro p {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 10%;
+  line-height: 1.5;
+}
+.skills {
+  border: 2px solid black;
+  width: 100%;
+  padding: 2rem;
+  height: 35rem;
+}
+.skills h1,
+.skills h3,
+.skills p {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 10%;
+  line-height: 1.5;
+}
+.projects {
+  border: 2px solid black;
+  width: 100%;
+  padding: 2rem;
+  height: 35rem;
+}
+.projects h1,
+.projects h3,
+.projects p {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 10%;
+  line-height: 1.5;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 10%;
+  line-height: 1.5;
 }
