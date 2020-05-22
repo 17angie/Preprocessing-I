@@ -133,22 +133,34 @@ table {
 html,
 body {
   height: 100%;
-  width: 800px;
   background-color: #B0E0E6;
   font-family: optima, sans-serif;
-  margin: 1rem auto;
+  margin: 0 auto;
 }
 header {
   width: 100%;
+  margin: 1rem;
 }
 header nav {
-  float: right;
+  margin-right: 2rem;
+  padding: 0;
 }
-header nav ul {
-  padding-bottom: 2rem;
+header nav a {
   list-style: none;
-}
-header nav ul li {
   display: inline-block;
-  margin-left: 6rem;
+  margin-left: 14%;
+  padding: 0.2rem 1rem;
+  background-color: #BA55D3;
+  border: 2px transparent;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: #4B0082;
+}
+.intro {
+  border: 2px solid black;
+  margin-left: 50%;
+}
+.intro div {
+  border: 2px solid black;
+  padding: 2rem;
 }
